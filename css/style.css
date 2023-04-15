@@ -24,7 +24,7 @@ body {
 .services-content {
   display: flex;
   align-items: center;
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -190,7 +190,7 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 20px 55px;
 }
@@ -257,7 +257,7 @@ body {
 /* main */
 
 .main-content {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 55px;
 }
@@ -279,6 +279,11 @@ body {
 
 .hero img {
   display: block;
+  width: 100%;
+  max-width: 1170px;
+  height: auto;
+  min-height: 300px;
+  object-fit: cover;
 }
 
 /* blog */
@@ -901,7 +906,7 @@ body {
 }
 
 .footer-container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 55px;
   display: flex;
