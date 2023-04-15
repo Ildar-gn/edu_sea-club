@@ -324,11 +324,13 @@ body {
   margin-bottom: 35px;
   font-size: 24px;
   line-height: 34px;
-  text-decoration: underline;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
   -webkit-text-decoration-color: #00c6bd;
           text-decoration-color: #00c6bd;
+  text-decoration-style: wavy;
   text-decoration-thickness: 2px;
-  text-underline-offset: 15px;
+  text-underline-offset: 10px;
   text-underline-position: under;
 }
 
@@ -403,8 +405,9 @@ body {
   text-decoration: underline;
   -webkit-text-decoration-color: #00c6bd;
           text-decoration-color: #00c6bd;
+  text-decoration-style: wavy;
   text-decoration-thickness: 2px;
-  text-underline-offset: 15px;
+  text-underline-offset: 10px;
   text-underline-position: under;
 }
 
@@ -585,8 +588,9 @@ body {
   text-decoration: underline;
   -webkit-text-decoration-color: #00c6bd;
           text-decoration-color: #00c6bd;
+  text-decoration-style: wavy;
   text-decoration-thickness: 2px;
-  text-underline-offset: 15px;
+  text-underline-offset: 10px;
   text-underline-position: under;
 }
 
@@ -652,11 +656,13 @@ body {
   font-size: 24px;
   line-height: 34px;
   text-align: center;
-  text-decoration: underline;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
   -webkit-text-decoration-color: #00c6bd;
           text-decoration-color: #00c6bd;
+  text-decoration-style: wavy;
   text-decoration-thickness: 2px;
-  text-underline-offset: 15px;
+  text-underline-offset: 10px;
   text-underline-position: under;
 }
 
@@ -803,11 +809,13 @@ body {
   margin-bottom: 35px;
   font-size: 24px;
   line-height: 34px;
-  text-decoration: underline;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
   -webkit-text-decoration-color: #00c6bd;
           text-decoration-color: #00c6bd;
+  text-decoration-style: wavy;
   text-decoration-thickness: 2px;
-  text-underline-offset: 15px;
+  text-underline-offset: 10px;
   text-underline-position: under;
 }
 
