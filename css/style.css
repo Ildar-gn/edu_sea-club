@@ -40,6 +40,7 @@ body {
   background-image: url("../img/pin.svg");
   background-repeat: no-repeat;
   background-position: left center;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .location:hover {
@@ -88,6 +89,7 @@ body {
   border: 1px solid #00c6bd;
   border-radius: 50%;
   cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .theme-button-light:hover {
@@ -114,6 +116,7 @@ body {
   border: 1px solid #00c6bd;
   border-radius: 50%;
   cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .theme-button-dark:hover {
@@ -155,6 +158,7 @@ body {
   border: 1px solid #00c6bd;
   border-radius: 50%;
   cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .font-button-sans-serif:hover {
@@ -177,6 +181,7 @@ body {
   border: 1px solid #00c6bd;
   border-radius: 50%;
   cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .font-button-serif:hover {
@@ -226,6 +231,7 @@ body {
   color: #163152;
   text-transform: uppercase;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 .site-navigation-item a:hover {
@@ -244,6 +250,7 @@ body {
   height: 34px;
   border: 1px solid #00c6bd;
   border-radius: 50%;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .signin:hover {
@@ -362,6 +369,8 @@ body {
           text-decoration-line: underline;
   background-color: transparent;
   border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
 
   /* Элемент скрыт в развернутой статье */
   display: none;
@@ -437,6 +446,7 @@ body {
   border: 1px solid #00c6bd;
   border-radius: 50%;
   cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .card-view-button-grid:hover {
@@ -461,6 +471,7 @@ body {
   border: 1px solid #00c6bd;
   border-radius: 50%;
   cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .card-view-button-list:hover {
@@ -637,6 +648,17 @@ body {
   left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.preview-list a:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.147);
 }
 
 .preview-list a.active-item::before {
@@ -758,6 +780,7 @@ body {
 .post-share {
   width: 26px;
   margin-top: 19px;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .post-share:hover {
@@ -776,6 +799,7 @@ body {
   font-weight: bold;
   color: #163152;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 .post-meta a:hover {
@@ -853,6 +877,7 @@ body {
 .contact-item a {
   color: #163152;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 .contact-item a:hover {
@@ -884,6 +909,7 @@ body {
   height: 38px;
   border-radius: 50%;
   border: 1px solid #00c6bd;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .social-item a:hover {
@@ -952,17 +978,14 @@ body {
   margin: 0;
 }
 
-.footer-navigation-item {
-  margin-bottom: 12px;
-}
-
-.footer-navigation-item:last-child {
-  margin-bottom: 0;
+.footer-navigation li + li {
+  margin-top: 12px;
 }
 
 .footer-navigation-item a {
   color: #163152;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 .footer-navigation-item a:hover {
@@ -981,6 +1004,7 @@ body {
 .policy a {
   color: #163152;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 .policy a:hover {
