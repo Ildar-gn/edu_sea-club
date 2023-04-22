@@ -212,16 +212,16 @@ body {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  margin-right: 40px;
+  margin: 0 40px;
   list-style: none;
   max-width: 990px;
 }
 
-.site-navigation-item {
+.site-navigation > * {
   margin-right: 30px;
 }
 
-.site-navigation-item:last-child {
+.site-navigation > *:last-child {
   margin-right: 0;
 }
 
@@ -246,6 +246,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   width: 34px;
   height: 34px;
   border: 1px solid #00c6bd;
@@ -978,7 +979,7 @@ body {
   margin: 0;
 }
 
-.footer-navigation li + li {
+.footer-navigation * + * {
   margin-top: 12px;
 }
 
