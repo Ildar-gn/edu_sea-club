@@ -636,6 +636,7 @@ body {
 
 .preview-list li {
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 .preview-list li:last-child {
@@ -655,7 +656,14 @@ body {
   left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.5);
-  transition: background-color 0.3s ease-in-out;
+  transform: translate(0px, 0%);
+  -webkit-transform: translate(0px, 0%);
+  -moz-transform: translate(0px, 0%);
+  -ms-transform: translate(0px, 0%);
+  -o-transform: translate(0px, 0%);
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
 }
 
 .preview-list a:hover::before {
@@ -665,7 +673,12 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.147);
+  background-color: rgba(255, 255, 255, 0.5);
+  transform: translate(0px, 100%);
+  -webkit-transform: translate(0px, 100%);
+  -moz-transform: translate(0px, 100%);
+  -ms-transform: translate(0px, 100%);
+  -o-transform: translate(0px, 100%);
 }
 
 .preview-list a.active-item::before {
