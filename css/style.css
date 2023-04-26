@@ -344,6 +344,7 @@ body {
   -webkit-text-decoration-color: #00c6bd;
   text-decoration-color: #00c6bd;
   -webkit-text-decoration-style: wavy;
+  -moz-text-decoration-style: wavy;
           text-decoration-style: wavy;
   text-decoration-thickness: 2px;
   text-underline-offset: 10px;
