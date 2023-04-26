@@ -340,7 +340,7 @@ body {
   text-decoration-line: underline;
   -moz-text-decoration-line: underline;
   -webkit-text-decoration-color: #00c6bd;
-          text-decoration-color: #00c6bd;
+  text-decoration-color: #00c6bd;
   text-decoration-style: wavy;
   text-decoration-thickness: 2px;
   text-underline-offset: 10px;
