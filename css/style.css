@@ -1069,6 +1069,7 @@ body {
 
 .page.dark a {
   color: #fdfdff;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .page.dark a:hover {
