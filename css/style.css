@@ -547,11 +547,26 @@ body {
 
 .card-price {
   display: flex;
-  justify-content: space-between;
   margin: 0;
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
+  flex-flow: row nowrap;
+  gap: 8px;
+}
+
+.card-price-name {
+  margin-right: auto;
+}
+
+.card-price-value {
+  margin: 0;
+}
+
+.card-price dd > s {
+  font-weight: normal;
+  color: #9daaba;
+
 }
 
 /* Вертикальная раскладка карточек списком */
