@@ -217,13 +217,17 @@ body {
   max-width: 990px;
 }
 
-.site-navigation > * {
+.site-navigation-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* .site-navigation > * {
   margin-right: 30px;
 }
 
 .site-navigation > *:last-child {
   margin-right: 0;
-}
+} */
 
 .site-navigation-item a {
   font-size: 14px;
