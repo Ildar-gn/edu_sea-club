@@ -536,13 +536,26 @@ body {
   margin: 0;
   margin-left: 18px;
   margin-bottom: 29px;
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 .card-features li {
   margin-bottom: 4px;
   font-size: 14px;
   line-height: 19px;
+  position: relative;
+}
+
+/* Стилизация маркеров */
+.card-features li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(21, 48, 81, 0.4);
+  position: absolute;
+  left: -19px;
+  top: 5px;
 }
 
 .card-price {
@@ -775,7 +788,7 @@ body {
   text-decoration: none;
 }
 
-.post-content ul {
+/* .post-content ul {
   padding: 0;
   margin: 0;
   margin-top: 15px;
@@ -787,6 +800,41 @@ body {
 
 .post-content li {
   margin-bottom: 8px;
+  display: list-item;
+}
+
+Стилизация маркеров
+.post-content li::marker {
+  font-size: 1.7em;
+  color: rgba(0, 198, 188, 0.6);
+} */
+
+.post-content ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 19px;
+  font-size: 18px;
+  line-height: 26px;
+  list-style-type: none;
+}
+
+.post-content li {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+/* Стилизация маркеров */
+.post-content li::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: rgba(0, 198, 188, 0.6);
+  position: absolute;
+  left: -19px;
+  top: 8px;
 }
 
 .post-content blockquote {
